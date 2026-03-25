@@ -39,6 +39,19 @@ The model is constructed using a `Sequential` API with the following layers:
 The model performance is evaluated using:
 * **R2 Score**: To measure the goodness of fit.
 * **MAPE (Mean Absolute Percentage Error)**: To quantify the prediction error as a percentage.
+  <img width="1971" height="703" alt="image" src="https://github.com/user-attachments/assets/d381e2b0-83e1-4ac3-89e0-f06ded39d5a2" />
+
+  <img width="987" height="225" alt="image" src="https://github.com/user-attachments/assets/8af96a1a-b1df-4ea3-866d-d4e879a14e32" />
+
+
+
+The predictive power of the model is validated through the following key metrics:
+
+* **High Accuracy Rate**: The model achieves a **98% accuracy rate** (based on $1 - MAPE$), indicating that the average prediction error is only **2%**.
+* **Volatility Capture**: This demonstrates that the **LSTM architecture** effectively captures the historical price volatility of **VNM**.
+* **Statistical Reliability**: Furthermore, the high **$R^2$ Score** confirms that the model explains most of the variance in the stock's movement.
+
+
 
 ### Visualization 🖼️
 The project generates a comprehensive plot comparing:
